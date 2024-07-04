@@ -36,3 +36,21 @@ body, main {
     background-color: #f5f5f5; /* Set background color for footer */
   }
   
+
+  @media (max-width: 768px) {
+    /* Styles for screens less than 768px wide */
+  
+    body {
+      flex-direction: column; /* Stack elements vertically on small screens */
+    }
+  
+    .article, .aside {
+      flex: 1; /* Make article and aside take up full width on small screens */
+      margin-bottom: 1em; /* Add some space between sections */
+    }
+  
+    header, nav, footer {
+      /* Adjust styles for header, nav, and footer as needed */
+    }
+  }
+  
