@@ -1,0 +1,38 @@
+body, main {
+    display: flex; /* Both body and main are flex containers */
+  }
+  
+  body {
+    flex-direction: column; /* Body has a vertical column layout */
+    min-height: 100vh; /* Set body to viewport height */
+  }
+  
+  main {
+    flex-direction: row; /* Main has a horizontal row layout */
+    flex: auto; /* Main takes up remaining space automatically */
+  }
+  
+  article {
+    flex: 2; /* Article takes up 2 parts of the available space */
+    padding: 1em; /* Add some padding for content */
+    overflow-y: auto; /* Allow vertical scrolling in article */
+  }
+  
+  aside {
+    flex: 1; /* Aside takes up 1 part of the available space */
+    padding: 1em; /* Add some padding for content */
+    overflow-y: auto; /* Allow vertical scrolling in aside */
+  }
+  
+  header, footer {
+    padding: 1em; /* Add some padding for header and footer */
+  }
+  
+  header {
+    background-color: #f5f5f5; /* Set background color for header */
+  }
+  
+  footer {
+    background-color: #f5f5f5; /* Set background color for footer */
+  }
+  
